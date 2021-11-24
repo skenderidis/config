@@ -7,7 +7,7 @@ class HackazonUser(HttpUser):
     @task(2)
     def main_page(self):
         self.client.get("/", verify=False)
-
+/*
     @task
     def view_items(self):
         self.client.get("/product/view?id=72", verify=False)
@@ -25,3 +25,4 @@ class HackazonUser(HttpUser):
         self.client.get("/faq", verify=False)
         self.client.get("/contact", verify=False)
         self.client.get("/", verify=False)
+*/
