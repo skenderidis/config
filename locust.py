@@ -25,4 +25,3 @@ class HackazonUser(HttpUser):
         self.client.get("/faq", verify=False)
         self.client.get("/contact", verify=False)
         self.client.get("/", verify=False)
-
