@@ -6,4 +6,4 @@ class HackazonUser(HttpUser):
 
     @task(2)
     def main_page(self):
-        self.client.get("/", verify=False)
+        self.client.get("/?delay=100&length=6000", verify=False)
